@@ -2520,7 +2520,7 @@
             "M_Swat_Guard_HoldSpecific",
             "M_Swat_Sniper"
           ],
-          "LeaderType": "M_SwatShield_",
+          "LeaderType": "M_Swat_Shield",
           "MinEnemies": 2,
           "MaxEnemies": 4,
           "MaxEnemiesAlive": 6,
