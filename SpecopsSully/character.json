@@ -2153,7 +2153,7 @@
   "Levels": [
     {
       "_Name": "H1",
-      "NumOverrideTokensForHold": 5,
+      "NumOverrideTokensForHold": 4,
       "MinSupplyPoints": 2,
       "MaxSupplyPoints": 2,
       "MinConstructors": 1,
@@ -2238,8 +2238,7 @@
       "Patrols": [
         {
           "EnemyType": [
-            "M_Swat_Guard",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Guard"
           ],
           "LeaderType": "RWP_PacSquad_Flanker",
           "PatrolSize": 4,
@@ -2256,8 +2255,7 @@
         },
         {
           "EnemyType": [
-            "M_Swat_Guard",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Guard"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -2276,7 +2274,7 @@
     },
     {
       "_Name": "H2",
-      "NumOverrideTokensForHold": 6,
+      "NumOverrideTokensForHold": 5,
       "MinSupplyPoints": 3,
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
@@ -2319,9 +2317,9 @@
             "M_Swat_Officer"
           ],
           "LeaderType": "M_Swat_Officer",
-          "MinEnemies": 1,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 4,
+          "MinEnemies": 2,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 5,
           "MaxDirections": 2,
           "SpawnCadence": 10.0,
           "ScanTime": 40.0,
@@ -2344,10 +2342,10 @@
             "M_Swat_Guard_HoldSpecific",
             "M_Swat_Officer"
           ],
-          "LeaderType": "M_Swat_Scout",
-          "MinEnemies": 1,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 4,
+          "LeaderType": "M_Swat_Shield",
+          "MinEnemies": 2,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 5,
           "MaxDirections": 2,
           "SpawnCadence": 10.0,
           "ScanTime": 40.0,
@@ -2369,8 +2367,7 @@
         {
           "EnemyType": [
             "M_Swat_Guard",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Flanker",
           "PatrolSize": 4,
@@ -2387,8 +2384,7 @@
         },
         {
           "EnemyType": [
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -2406,8 +2402,7 @@
         {
           "EnemyType": [
             "M_Swat_Scout",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Trooper",
           "PatrolSize": 3,
@@ -2467,7 +2462,7 @@
           "MinTargetsLimited": 7,
           "MaxTargetsLimited": 7,
           "EnemyType": [
-            "M_Swat_Officer",
+            "M_Swat_Shield",
             "M_Swat_Guard_HoldSpecific"
           ],
           "LeaderType": "M_Swat_Scout",
@@ -2497,9 +2492,9 @@
             "M_Swat_Guard_HoldSpecific"
           ],
           "LeaderType": "M_Swat_Sniper",
-          "MinEnemies": 1,
+          "MinEnemies": 2,
           "MaxEnemies": 3,
-          "MaxEnemiesAlive": 4,
+          "MaxEnemiesAlive": 8,
           "MaxDirections": 2,
           "SpawnCadence": 12.0,
           "ScanTime": 40.0,
@@ -2525,7 +2520,7 @@
             "M_Swat_Guard_HoldSpecific",
             "M_Swat_Sniper"
           ],
-          "LeaderType": "M_Swat_Shield",
+          "LeaderType": "M_SwatShield_",
           "MinEnemies": 2,
           "MaxEnemies": 4,
           "MaxEnemiesAlive": 6,
@@ -2550,8 +2545,7 @@
         {
           "EnemyType": [
             "M_Swat_Guard",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Flanker",
           "PatrolSize": 4,
@@ -2568,8 +2562,7 @@
         },
         {
           "EnemyType": [
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -2587,8 +2580,7 @@
         {
           "EnemyType": [
             "M_Swat_Scout",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Trooper",
           "PatrolSize": 3,
@@ -2606,8 +2598,7 @@
         {
           "EnemyType": [
             "M_Swat_Scout",
-            "M_Swat_Shield",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Shield"
           ],
           "LeaderType": "RWP_PacSquad_Sniper",
           "PatrolSize": 3,
@@ -2691,12 +2682,13 @@
           "MaxTargetsLimited": 1,
           "EnemyType": [
             "M_Swat_Guard_HoldSpecific",
-            "M_Swat_Sniper"
+            "M_Swat_Sniper",
+            "M_Swat_Breacher"
           ],
           "LeaderType": "RWP_PacSquad_Trooper",
-          "MinEnemies": 1,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 5,
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 7,
           "MaxDirections": 2,
           "SpawnCadence": 13.0,
           "ScanTime": 40.0,
@@ -2744,8 +2736,7 @@
         {
           "EnemyType": [
             "M_Swat_Guard",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Flanker",
           "PatrolSize": 4,
@@ -2762,8 +2753,7 @@
         },
         {
           "EnemyType": [
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -2781,8 +2771,7 @@
         {
           "EnemyType": [
             "M_Swat_Scout",
-            "M_Swat_Officer",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Trooper",
           "PatrolSize": 3,
@@ -2800,8 +2789,7 @@
         {
           "EnemyType": [
             "M_Swat_Scout",
-            "M_Swat_Shield",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Shield"
           ],
           "LeaderType": "RWP_PacSquad_Sniper",
           "PatrolSize": 3,
@@ -2883,12 +2871,10 @@
         {
           "EnemyType": [
             "RWP_PacSquad_Sniper",
-            "RWP_PacSquad_Flanker",
-            "M_Swat_Guard_HoldSpecific",
-            "M_Swat_Guard_HoldSpecific"
+            "RWP_PacSquad_Flanker"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
-          "PatrolSize": 3,
+          "PatrolSize": 4,
           "MaxPatrols": 2,
           "MaxPatrolsLimited": 1,
           "PatrolCadence": 35.0,
