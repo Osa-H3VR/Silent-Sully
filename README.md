@@ -1,6 +1,6 @@
 # Specops Sully
 
-##Description:
+## Description:
 After playing so many hours of TnH I've noticed that it's now missing that tactical and shooting range feel I really loved at the beginning.
 With that in mind I started designing this character:
  - to punish careless players, such as myself
@@ -10,7 +10,7 @@ With that in mind I started designing this character:
  - make consumables not only useful, but a tool you have to use. Who normally uses non health weinies or grenades? <sub>lol<sub> 
  - give a taste of how fun and engaging limited ammo is for people not accustomed to it. Spawnlock is just as hard, but you have unlimited pistol ammo
  
-#####NOTE: For the optimal experience while using Spawnlock, only Spawnlock the starting pistols magazine.
+##### NOTE: For the optimal experience while using Spawnlock, only Spawnlock the starting pistols magazine.
  
 ```
 This is the real tactical experience
@@ -19,7 +19,7 @@ Good luck, you'll need it
 Osa out.
 ```
 
-##Progression changes:
+## Progression changes:
 - Removed all useless types of shells, now shotguns will always feel useful and no longer you're forced to pray to rng gods for usable ammo
 - Patrols are abundant and powerful, you can try to fight them for some health drops, but you will lose ammo and probably even more health, ignoring them is much harder now.
 - Supply points now have turrets, making them much harder to access. Explosions are great for clearing them out
