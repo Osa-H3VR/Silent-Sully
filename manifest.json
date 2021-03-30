@@ -13,10 +13,9 @@
   "assets": {
     "patcher": {},
     "setup": {
+      "SpecopsSully/sosig_M_Swat_Guard_HoldSpecific.json": "h3vr.tnhtweaker.deli:sosig",
       "SpecopsSully/": "h3vr.tnhtweaker.deli:character"
     },
     "runtime": {}
   }
-
-}
 }

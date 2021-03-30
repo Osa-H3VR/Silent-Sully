@@ -20,27 +20,24 @@ Osa out.
 ```
 
 ## Progression changes:
+- Supply points before 1st hold, always have a flashlight, no longer need to rely on map makers!
 - Removed all useless types of shells, now shotguns will always feel useful and no longer you're forced to pray to rng gods for usable ammo
 - Patrols are abundant and powerful, you can try to fight them for some health drops, but you will lose ammo and probably even more health, ignoring them is much harder now.
-- Supply points now have turrets, making them much harder to access. Explosions are great for clearing them out
+- Supply points now have turrets, making them much harder to access. Explosions are great for clearing them out.
 - Holds now also have turrets. No more you're just free to run in and slap "Start the Hold" to clear everything without even losing hp
 - Each supply now has a free cache, you can get loads of useful things, get creative! You have to now...
 - Attachments are now cheaper and you no longer waste hp from crates, there are no tokens inside. Two really great ideas, stolen from AllRounderRandy by Jessica
+ - During holds, sosigs have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. 
+ This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
 
 ## Bugs:
  - Turrets can, and will spawn knocked down
+ - Supply cache in store can sometimes give you random, unusable weenies
  - I'm not sure how often the Ammo Purchase panel will spawn, it should be common enough, needs more playtesting.
  - On some maps, patrols like to congregate in small areas (Promeatus middle area is, I think, the worst offender for that)
  - If you dont like the "only Spawnlock the starting pistols magazine" rule, you can go ahead and play your way! Just have fun! <sub>I don't care... <sub> <sub><sup>I do care...<sub><sup>
 
 ## TODO:
-- During holds, sosigs have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
-add new sosig template that drops mags sometimes during holds.
-    - MagazineG17Standard 17.0
-    - MagazineG19_19rnd 19.0
-    - MagazineM1911Tactical 11.0
-    - MagazineM1911 7.0
-
 - Endless mode:     (aka. "Game doesn't like you" mode)
     - you start with more tokens to spend, gives a chance for a good start
     - only single health crate in supply points

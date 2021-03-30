@@ -3,7 +3,7 @@
   "Description": "You've successfully infiltrated the enemy complex.\nYour objective is to acquire enemy data and extract.\n\nNOTE:For the optimal expierience while using Spawnlock, only Spawnlock the starting pistols magazine.",
   "CharacterGroup": 0,
   "TableID": "SilentSully_0_0_1",
-  "StartingTokens": 3,
+  "StartingTokens": 5,
   "ForceAllAgentWeapons": false,
   "ForceDisableOutfitFunctionality": false,
   "UsesPurchasePriceIncrement": true,
@@ -116,8 +116,8 @@
           "ItemsToSpawn": 1,
           "MinAmmoCapacity": -1,
           "MaxAmmoCapacity": 12,
-          "NumMagsSpawned": 3,
-          "NumClipsSpawned": 3,
+          "NumMagsSpawned": 4,
+          "NumClipsSpawned": 4,
           "NumRoundsSpawned": 16,
           "SpawnMagAndClip": false,
           "BespokeAttachmentChance": 0.5,
@@ -155,8 +155,8 @@
           "ItemsToSpawn": 1,
           "MinAmmoCapacity": -1,
           "MaxAmmoCapacity": 18,
-          "NumMagsSpawned": 3,
-          "NumClipsSpawned": 3,
+          "NumMagsSpawned": 4,
+          "NumClipsSpawned": 4,
           "NumRoundsSpawned": 16,
           "SpawnMagAndClip": false,
           "BespokeAttachmentChance": 0.5,
@@ -383,9 +383,7 @@
       "IsCompatibleMagazine": false,
       "AutoPopulateGroup": false,
       "ForceSpawnAllSubPools": false,
-      "IDOverride": [
-        "BackpackA"
-      ],
+      "IDOverride": [],
       "Eras": [],
       "Sets": [],
       "Sizes": [],
@@ -419,7 +417,7 @@
           "AutoPopulateGroup": false,
           "ForceSpawnAllSubPools": false,
           "IDOverride": [
-            "XM84Flashbang"
+            "M219Grenade"
           ],
           "Eras": [],
           "Sets": [],
@@ -495,11 +493,11 @@
         "Rarity": 10.0,
         "RequiredQuest": null,
         "ItemsToSpawn": 1,
-        "MinAmmoCapacity": -1,
-        "MaxAmmoCapacity": 20,
-        "NumMagsSpawned": 3,
-        "NumClipsSpawned": 3,
-        "NumRoundsSpawned": 12,
+        "MinAmmoCapacity": 4,
+        "MaxAmmoCapacity": 10,
+        "NumMagsSpawned": 4,
+        "NumClipsSpawned": 4,
+        "NumRoundsSpawned": 18,
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
@@ -519,10 +517,7 @@
         ],
         "Sizes": [
           "Pocket",
-          "Pistol",
-          "Compact",
-          "Carbine",
-          "FullSize"
+          "Pistol"
         ],
         "Actions": [
           "Revolver"
@@ -532,9 +527,75 @@
         "FeedOptions": [],
         "MountsAvailable": [],
         "RoundPowers": [
-          "Tiny",
           "Pistol",
-          "Intermediate"
+          "Intermediate",
+          "FullPower"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_pistols",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_pistols",
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 2,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": 10,
+        "NumMagsSpawned": 4,
+        "NumClipsSpawned": 4,
+        "NumRoundsSpawned": 20,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Pocket",
+          "Pistol"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [
+          "Burst",
+          "FullAuto"
+        ],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Intermediate",
+          "FullPower"
         ],
         "Features": [],
         "MeleeStyles": [],
@@ -551,7 +612,7 @@
       "_Name": "TNH_Icon_break_action",
       "Type": "Firearm",
       "IconName": "TNH_Icon_break_action",
-      "TokenCost": 3,
+      "TokenCost": 2,
       "TokenCostLimited": 2,
       "MinLevelAppears": 0,
       "MaxLevelAppears": 2,
@@ -564,9 +625,9 @@
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": 1,
         "MaxAmmoCapacity": 4,
-        "NumMagsSpawned": 2,
-        "NumClipsSpawned": 2,
-        "NumRoundsSpawned": 6,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 12,
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
@@ -594,7 +655,725 @@
         "ExcludedModes": [],
         "FeedOptions": [],
         "MountsAvailable": [],
-        "RoundPowers": [],
+        "RoundPowers": [
+          "Intermediate",
+          "Shotgun"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "small-smg.png",
+      "Type": "Firearm",
+      "IconName": "small-smg.png",
+      "TokenCost": 4,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 15.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 15,
+        "MaxAmmoCapacity": 35,
+        "NumMagsSpawned": 4,
+        "NumClipsSpawned": 4,
+        "NumRoundsSpawned": 20,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Pistol",
+          "Compact"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Pistol",
+          "Intermediate"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    
+    {
+      "_Name": "TNH_Icon_tube_fed",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_tube_fed",
+      "TokenCost": 5,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 8.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 4,
+        "MaxAmmoCapacity": 12,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 16,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [],
+        "Actions": [
+          "PumpAction",
+          "BoltAction",
+          "Revolver"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Shotgun"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_smg",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_smg",
+      "TokenCost": 5,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 15.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 20,
+        "MaxAmmoCapacity": 40,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Compact",
+          "Carbine",
+          "FullSize",
+          "Bulky"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [
+          "FullAuto"
+        ],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Pistol",
+          "Intermediate"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_automatic_tube_fed_shotgun",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_automatic_tube_fed_shotgun",
+      "TokenCost": 6,
+      "TokenCostLimited": 5,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 1,
+        "MaxAmmoCapacity": 9,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 16,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [
+          "InternalMag"
+        ],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Shotgun"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_bolt_action",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_bolt_action",
+      "TokenCost": 5,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 1,
+        "MaxAmmoCapacity": 50,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky",
+          "Oversize"
+        ],
+        "Actions": [
+          "BoltAction"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Intermediate",
+          "FullPower"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    
+    {
+      "_Name": "TNH_Icon_assault_rifle",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_assault_rifle",
+      "TokenCost": 7,
+      "TokenCostLimited": 6,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 4,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 10,
+        "MaxAmmoCapacity": 30,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky"
+        ],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Intermediate"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_magazine_fed",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_magazine_fed",
+      "TokenCost": 8,
+      "TokenCostLimited": 8,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 4,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 9,
+        "MaxAmmoCapacity": 30,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [
+          "BoxMag"
+        ],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Shotgun"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "TNH_Icon_battle_rifle",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_battle_rifle",
+      "TokenCost": 7,
+      "TokenCostLimited": 6,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 4,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 5,
+        "MaxAmmoCapacity": 10,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "FullPower"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    
+    {
+      "_Name": "Antimaterial",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_bolt_action",
+      "TokenCost": 8,
+      "TokenCostLimited": 7,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 3.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 1,
+        "MaxAmmoCapacity": 50,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky",
+          "Oversize"
+        ],
+        "Actions": [
+          "BoltAction"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "AntiMaterial"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "highcap rifle",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_assault_rifle",
+      "TokenCost": 10,
+      "TokenCostLimited": 10,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 4.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 40,
+        "MaxAmmoCapacity": 60,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky"
+        ],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Intermediate"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "_Name": "highcap battle rifle",
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_battle_rifle",
+      "TokenCost": 9,
+      "TokenCostLimited": 9,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 20,
+        "MaxAmmoCapacity": 30,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "WildWest",
+          "TurnOfTheCentury",
+          "WW1",
+          "WW2",
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [
+          "Real",
+          "GroundedFictional"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize",
+          "Bulky"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "FullPower"
+        ],
         "Features": [],
         "MeleeStyles": [],
         "MeleeHandedness": [],
@@ -663,7 +1442,7 @@
       "IconName": "TNH_Icon_attachable_stocks",
       "TokenCost": 1,
       "TokenCostLimited": 1,
-      "MinLevelAppears": 0,
+      "MinLevelAppears": 1,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
@@ -732,13 +1511,11 @@
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
-        "ForceSpawnAllSubPools": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": true,
         "IDOverride": [],
         "Eras": [],
-        "Sets": [
-          "Real"
-        ],
+        "Sets": [],
         "Sizes": [],
         "Actions": [],
         "Modes": [],
@@ -746,16 +1523,89 @@
         "FeedOptions": [],
         "MountsAvailable": [],
         "RoundPowers": [],
-        "Features": [
-          "Illumination"
-        ],
+        "Features": [],
         "MeleeStyles": [],
         "MeleeHandedness": [],
         "MountTypes": [],
         "PowerupTypes": [],
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
-        "SubGroups": null
+        "SubGroups": [
+          {
+            "Category": "Attachment",
+            "Rarity": 1.0,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": -1,
+            "NumMagsSpawned": 3,
+            "NumClipsSpawned": 3,
+            "NumRoundsSpawned": 8,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": true,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [],
+            "Eras": [],
+            "Sets": [
+              "Real"
+            ],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [
+              "Illumination"
+            ],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": null
+          },
+          {
+            "Category": "Attachment",
+            "Rarity": 1.0,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": -1,
+            "NumMagsSpawned": 3,
+            "NumClipsSpawned": 3,
+            "NumRoundsSpawned": 8,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": false,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [
+              "UtilityFlashlight"
+            ],
+            "Eras": [],
+            "Sets": [],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": null
+          }
+        ]
       },
       "BackupGroup": null
     },
@@ -765,7 +1615,7 @@
       "IconName": "TNH_Icon_scopes",
       "TokenCost": 1,
       "TokenCostLimited": 1,
-      "MinLevelAppears": 0,
+      "MinLevelAppears": 1,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
@@ -817,7 +1667,7 @@
       "IconName": "TNH_Icon_suppressors",
       "TokenCost": 3,
       "TokenCostLimited": 3,
-      "MinLevelAppears": 2,
+      "MinLevelAppears": 1,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
@@ -919,9 +1769,9 @@
       "_Name": "TNH_Icon_laser",
       "Type": "Equipment",
       "IconName": "TNH_Icon_laser",
-      "TokenCost": 2,
-      "TokenCostLimited": 2,
-      "MinLevelAppears": 1,
+      "TokenCost": 3,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 2,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
@@ -1023,7 +1873,7 @@
       "_Name": "TNH_Icon_bayonet",
       "Type": "Equipment",
       "IconName": "TNH_Icon_bayonet",
-      "TokenCost": 2,
+      "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 2,
       "MaxLevelAppears": 99,
@@ -1076,7 +1926,7 @@
       "Type": "Equipment",
       "IconName": "TNH_Icon_underbarrel_weapons",
       "TokenCost": 4,
-      "TokenCostLimited": 3,
+      "TokenCostLimited": 4,
       "MinLevelAppears": 2,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
@@ -1136,7 +1986,7 @@
       "SpawnsInLargeCase": false,
       "PrimaryGroup": {
         "Category": "Powerup",
-        "Rarity": 5.0,
+        "Rarity": 1.0,
         "RequiredQuest": null,
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": -1,
@@ -1147,7 +1997,7 @@
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
+        "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [],
         "Eras": [],
@@ -1168,57 +2018,9 @@
         "ThrownDamageTypes": [],
         "SubGroups": [
           {
-            "_Name": "Thrown",
-            "Type": "Equipment",
-            "IconName": "TNH_Icon_melee",
-            "TokenCost": 2,
-            "TokenCostLimited": 0,
-            "MinLevelAppears": 0,
-            "MaxLevelAppears": 5,
-            "SpawnsInSmallCase": false,
-            "SpawnsInLargeCase": false,
-            "PrimaryGroup": {
-              "Category": "MeleeWeapon",
-              "Rarity": 6.0,
-              "RequiredQuest": null,
-              "ItemsToSpawn": 8,
-              "MinAmmoCapacity": -1,
-              "MaxAmmoCapacity": -1,
-              "NumMagsSpawned": 0,
-              "NumClipsSpawned": 0,
-              "NumRoundsSpawned": 0,
-              "SpawnMagAndClip": false,
-              "BespokeAttachmentChance": 0.5,
-              "IsCompatibleMagazine": false,
-              "AutoPopulateGroup": false,
-              "ForceSpawnAllSubPools": false,
-              "IDOverride": [
-                "Shuriken"
-              ],
-              "Eras": [],
-              "Sets": [],
-              "Sizes": [],
-              "Actions": [],
-              "Modes": [],
-              "ExcludedModes": [],
-              "FeedOptions": [],
-              "MountsAvailable": [],
-              "RoundPowers": [],
-              "Features": [],
-              "MeleeStyles": [],
-              "MeleeHandedness": [],
-              "MountTypes": [],
-              "PowerupTypes": [],
-              "ThrownTypes": [],
-              "ThrownDamageTypes": [],
-              "SubGroups": null
-            },
-            "BackupGroup": null
-          },
-          {
             "_Name": "Weeinie",
             "Category": "Powerup",
-            "Rarity": 3.0,
+            "Rarity": 6.0,
             "RequiredQuest": null,
             "ItemsToSpawn": 1,
             "MinAmmoCapacity": -1,
@@ -1262,7 +2064,7 @@
             "Category": "Thrown",
             "Rarity": 4.0,
             "RequiredQuest": null,
-            "ItemsToSpawn": 1,
+            "ItemsToSpawn": 2,
             "MinAmmoCapacity": -1,
             "MaxAmmoCapacity": -1,
             "NumMagsSpawned": 3,
@@ -1297,7 +2099,7 @@
           {
             "_Name": "Frags",
             "Category": "Thrown",
-            "Rarity": 5.0,
+            "Rarity": 3.0,
             "RequiredQuest": null,
             "ItemsToSpawn": 1,
             "MinAmmoCapacity": -1,
@@ -1339,8 +2141,7 @@
               "Pinned"
             ],
             "ThrownDamageTypes": [
-              "Explosive",
-              "Fire"
+              "Explosive"
             ],
             "SubGroups": null
           }
@@ -1352,7 +2153,7 @@
   "Levels": [
     {
       "_Name": "H1",
-      "NumOverrideTokensForHold": 3,
+      "NumOverrideTokensForHold": 5,
       "MinSupplyPoints": 2,
       "MaxSupplyPoints": 2,
       "MinConstructors": 1,
@@ -1360,7 +2161,7 @@
       "MinPanels": 2,
       "MaxPanels": 2,
       "MinBoxesSpawned": 2,
-      "MaxBoxesSpawned": 4,
+      "MaxBoxesSpawned": 3,
       "MinTokensPerSupply": 0,
       "MaxTokensPerSupply": 0,
       "BoxTokenChance": 0.0,
@@ -1385,31 +2186,7 @@
           "MinTargets": 6,
           "MaxTargets": 7,
           "MinTargetsLimited": 5,
-          "MaxTargetsLimited": 7,
-          "EnemyType": [
-            "M_Swat_Guard"
-          ],
-          "LeaderType": "M_Swat_Officer",
-          "MinEnemies": 1,
-          "MaxEnemies": 1,
-          "MaxEnemiesAlive": 3,
-          "MaxDirections": 2,
-          "SpawnCadence": 20.0,
-          "ScanTime": 40.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Stealth"
-          ],
-          "MinTargets": 6,
-          "MaxTargets": 7,
-          "MinTargetsLimited": 5,
-          "MaxTargetsLimited": 7,
+          "MaxTargetsLimited": 6,
           "EnemyType": [
             "M_Swat_Guard"
           ],
@@ -1425,19 +2202,44 @@
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 6,
+          "MaxTargets": 7,
+          "MinTargetsLimited": 5,
+          "MaxTargetsLimited": 6,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "M_Swat_Officer",
+          "MinEnemies": 1,
+          "MaxEnemies": 2,
+          "MaxEnemiesAlive": 3,
+          "MaxDirections": 2,
+          "SpawnCadence": 8.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
         }
       ],
       "SupplyChallenge": {
-        "TurretType": "SMG",
+        "TurretType": "Machinegun",
         "EnemyType": "M_Swat_Guard",
-        "NumTurrets": 1,
-        "NumGuards": 1,
+        "NumTurrets": 0,
+        "NumGuards": 2,
         "IFFUsed": 1
       },
       "Patrols": [
         {
           "EnemyType": [
-            "M_Swat_Guard"
+            "M_Swat_Guard",
+            "M_Swat_Guard_HoldSpecific"
           ],
           "LeaderType": "RWP_PacSquad_Flanker",
           "PatrolSize": 4,
@@ -1454,7 +2256,8 @@
         },
         {
           "EnemyType": [
-            "M_Swat_Officer"
+            "M_Swat_Guard",
+            "M_Swat_Guard_HoldSpecific"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -1464,6 +2267,634 @@
           "PatrolCadenceLimited": 25.0,
           "IFFUsed": 1,
           "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "_Name": "H2",
+      "NumOverrideTokensForHold": 6,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 2,
+      "MaxPanels": 2,
+      "MinBoxesSpawned": 1,
+      "MaxBoxesSpawned": 3,
+      "MinTokensPerSupply": 0,
+      "MaxTokensPerSupply": 0,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 1,
+      "PossiblePanelTypes": [
+        "AmmoPurchase",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "Flamethrower",
+        "EnemyType": "M_Swat_Guard",
+        "NumTurrets": 2,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static",
+            "Static",
+            "Static",
+            "Static",
+            "Hardened"
+          ],
+          "MinTargets": 6,
+          "MaxTargets": 8,
+          "MinTargetsLimited": 6,
+          "MaxTargetsLimited": 7,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Officer"
+          ],
+          "LeaderType": "M_Swat_Officer",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 2,
+          "SpawnCadence": 10.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Swarm",
+            "Recursive"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 4,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Officer"
+          ],
+          "LeaderType": "M_Swat_Scout",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 2,
+          "SpawnCadence": 10.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "M_Swat_Guard",
+        "NumTurrets": 1,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "M_Swat_Guard",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Flanker",
+          "PatrolSize": 4,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Commander",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Scout",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "_Name": "H3",
+      "NumOverrideTokensForHold": 6,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 2,
+      "MaxPanels": 2,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 3,
+      "MinTokensPerSupply": 0,
+      "MaxTokensPerSupply": 0,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 1,
+      "PossiblePanelTypes": [
+        "AmmoPurchase",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "M_Swat_Sniper",
+        "NumTurrets": 1,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Stealth",
+            "Stealth",
+            "Stealth",
+            "Stealth",
+            "Stealth",
+            "Stealth",
+            "Agile"
+          ],
+          "MinTargets": 7,
+          "MaxTargets": 7,
+          "MinTargetsLimited": 7,
+          "MaxTargetsLimited": 7,
+          "EnemyType": [
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "M_Swat_Scout",
+          "MinEnemies": 1,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 5,
+          "MaxDirections": 3,
+          "SpawnCadence": 12.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened",
+            "Swarm"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 4,
+          "EnemyType": [
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "M_Swat_Sniper",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 2,
+          "SpawnCadence": 12.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth",
+            "Stealth",
+            "Static",
+            "Static",
+            "Recursive"
+          ],
+          "MinTargets": 6,
+          "MaxTargets": 7,
+          "MinTargetsLimited": 5,
+          "MaxTargetsLimited": 6,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Sniper"
+          ],
+          "LeaderType": "M_Swat_Shield",
+          "MinEnemies": 2,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 13.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "Machinegun",
+        "EnemyType": "M_Swat_Shield",
+        "NumTurrets": 1,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "M_Swat_Guard",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Flanker",
+          "PatrolSize": 4,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Commander",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Scout",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Scout",
+            "M_Swat_Shield",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Sniper",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "_Name": "H4",
+      "NumOverrideTokensForHold": 8,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 2,
+      "MaxPanels": 2,
+      "MinBoxesSpawned": 1,
+      "MaxBoxesSpawned": 3,
+      "MinTokensPerSupply": 0,
+      "MaxTokensPerSupply": 0,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 1,
+      "PossiblePanelTypes": [
+        "AmmoPurchase",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "Machinegun",
+        "EnemyType": "RWP_PacSquad_Trooper",
+        "NumTurrets": 2,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Recursive",
+            "Recursive",
+            "Recursive",
+            "Agile",
+            "Agile"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 4,
+          "MaxTargetsLimited": 4,
+          "EnemyType": [
+            "M_Swat_Breacher",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "MinEnemies": 2,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 3,
+          "SpawnCadence": 13.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Regenerative"
+          ],
+          "MinTargets": 1,
+          "MaxTargets": 1,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Sniper"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 5,
+          "MaxDirections": 2,
+          "SpawnCadence": 13.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Regenerative",
+            "Regenerative"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Sniper"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 5,
+          "MaxDirections": 2,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "M_Swat_Breacher",
+        "NumTurrets": 2,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "M_Swat_Guard",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Flanker",
+          "PatrolSize": 4,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Commander",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Scout",
+            "M_Swat_Officer",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Trooper",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        },
+        {
+          "EnemyType": [
+            "M_Swat_Scout",
+            "M_Swat_Shield",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Sniper",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 20.0,
+          "PatrolCadenceLimited": 25.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "_Name": "H5",
+      "NumOverrideTokensForHold": 15,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 2,
+      "MaxPanels": 2,
+      "MinBoxesSpawned": 1,
+      "MaxBoxesSpawned": 3,
+      "MinTokensPerSupply": 0,
+      "MaxTokensPerSupply": 0,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 1,
+      "PossiblePanelTypes": [
+        "AmmoPurchase",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "Machinegun",
+        "EnemyType": "RWP_PacSquad_Trooper",
+        "NumTurrets": 2,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"],
+          "MinTargets": 0,
+          "MaxTargets": 0,
+          "MinTargetsLimited": 0,
+          "MaxTargetsLimited": 0,
+          "EnemyType": [
+            "RWP_PacSquad_Trooper",
+            "RWP_PacSquad_Flanker",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Commander",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 7,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 160.0,
+          "WarmupTime": 20.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "RWP_PacSquad_Commander",
+        "NumTurrets": 2,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "RWP_PacSquad_Sniper",
+            "RWP_PacSquad_Flanker",
+            "M_Swat_Guard_HoldSpecific",
+            "M_Swat_Guard_HoldSpecific"
+          ],
+          "LeaderType": "RWP_PacSquad_Commander",
+          "PatrolSize": 3,
+          "MaxPatrols": 2,
+          "MaxPatrolsLimited": 1,
+          "PatrolCadence": 35.0,
+          "PatrolCadenceLimited": 45.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": true,
           "AssualtSpeed": "Walking",
           "IsBoss": false,
           "DropChance": 0.65,
