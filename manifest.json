@@ -1,6 +1,6 @@
 ﻿{
   "guid": "h3vr.tnhtweaker.specopssully",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "require": "0.3.0",
   "dependencies": {
     "h3vr.tnhtweaker.deli": "1.6.0"
