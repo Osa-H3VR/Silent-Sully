@@ -31,6 +31,7 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 - Attachments are now cheaper and you no longer waste hp from crates, there are no tokens inside. Two really great ideas, stolen from AllRounderRandy by Jessica
 - During holds, sosigs have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. 
  This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
+- Weaker categories now spawn with more ammo/bigger mags/more mags to incentivise earlier buys.
  
 ## Bugs:
  - Turrets can, and will spawn knocked down
