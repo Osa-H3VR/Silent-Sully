@@ -38,6 +38,9 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
  - On some maps, patrols like to congregate in small areas (Promeatus middle area is, I think, the worst offender for that)
 
 ## TODO:
+- Add a picture showing sentries weakpoints
+    - Turrets were SO ANNOYING (to the point I was actually thinking about scrapping them) till I randomly found out they have a weakpoint, its that lower part of the thingy they have on their side, its colored depending on the turret type. The hitbox is really small. Im almost 100% sure its even smaller that in Receivers turrets.
+
 - Endless mode:     (aka. "Game doesn't like you" mode)
     - you start with more tokens to spend, gives a chance for a good start
     - only single health crate in supply points
@@ -50,12 +53,10 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
     
 - Thumbnail pls?
     - :3
-
-- Add a picture showing sentries weakpoints
-
+    
 ##Future plans
-We get lots of new weapons, great maps, but lately, character scene has been quiet. I'm gonna change that! Here are few characters ideas I have:
+We get lots of new weapons, great maps, but lately, character scene has been quiet. I'm gonna try, and change that. Here are few characters ideas I have:
 - **Meatceiver Matt** (collecting single bullets from ground will be fun, surely...)
 - **Ripper Ryan** (decimate HORDES, with TOO MUCH FIREPOWER! Set your pc ON FIRE!)
 - **Ghostly Gunther** (No hp drops at all. YOU GET NOTHING, and then YOU LOSE)
-- **Gambler Garry** (Wanna test your luck? Will you get a desert eagle or a makarov, an antimatter rifle or just a .22 shooter. Each category contains WHOLE CLASS in it.)
+- **Gambler Garry** (Wanna test your luck? Will you get a desert eagle or a makarov, an antimatter rifle or just a .22 shooter. Each category contains WHOLE CLASS in it. Basically Ricky Random, but cooler.)
