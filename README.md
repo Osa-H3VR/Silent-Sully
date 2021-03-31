@@ -53,7 +53,7 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 
 - Add a picture showing sentries weakpoints
 
-##Future plans
+## Future plans
 We get lots of new weapons, great maps, but lately, character scene has been quiet. I'm gonna change that! Here are few characters ideas I have:
 - **Meatceiver Matt** (collecting single bullets from ground will be fun, surely...)
 - **Ripper Ryan** (decimate HORDES, with TOO MUCH FIREPOWER! Set your pc ON FIRE!)
