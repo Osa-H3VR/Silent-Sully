@@ -239,7 +239,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 1.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.75,
+  "DroppedLootChance": 0.8,
   "DroppedObjectPool": {
     "Category": "Firearm",
     "Rarity": 1.0,
@@ -274,6 +274,7 @@
     "ThrownDamageTypes": [],
     "SubGroups": [
       {
+        "_Name": "Magazine",
         "Category": "Firearm",
         "Rarity": 1.0,
         "RequiredQuest": null,
