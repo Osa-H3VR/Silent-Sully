@@ -2293,7 +2293,7 @@
         "Recycler"
       ],
       "TakeChallenge": {
-        "TurretType": "Flamethrower",
+        "TurretType": "SMG",
         "EnemyType": "M_Swat_Guard",
         "NumTurrets": 2,
         "NumGuards": 3,
@@ -2357,7 +2357,7 @@
         }
       ],
       "SupplyChallenge": {
-        "TurretType": "SMG",
+        "TurretType": "Flamethrower",
         "EnemyType": "M_Swat_Guard",
         "NumTurrets": 1,
         "NumGuards": 2,
