@@ -47,9 +47,6 @@ Osa out.
 
 - Longer melee weapons now, not only enable you to save ammo, but now you can also safely knock over turrets with it.
     - add longer/better melee category in tools
-
-- Later holds will have more supply points
-    - do this pls
     
 - Thumbnail pls?
     - :3
