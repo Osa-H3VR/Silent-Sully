@@ -2570,7 +2570,7 @@
           "MaxTargetsLimited": 7,
           "EnemyType": [
             "M_Swat_Shield",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Guard_Officer"
           ],
           "LeaderType": "M_Swat_Scout",
           "MinEnemies": 1,
@@ -2645,7 +2645,7 @@
         "TurretType": "Machinegun",
         "EnemyType": "M_Swat_Shield",
         "NumTurrets": 1,
-        "NumGuards": 3,
+        "NumGuards": 2,
         "IFFUsed": 1
       },
       "Patrols": [
@@ -2764,7 +2764,7 @@
           "MaxTargetsLimited": 4,
           "EnemyType": [
             "M_Swat_Breacher",
-            "M_Swat_Guard_HoldSpecific"
+            "M_Swat_Officer"
           ],
           "LeaderType": "RWP_PacSquad_Trooper",
           "MinEnemies": 2,

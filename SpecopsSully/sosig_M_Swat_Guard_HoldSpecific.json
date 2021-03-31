@@ -239,7 +239,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 1.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.8,
+  "DroppedLootChance": 0.7,
   "DroppedObjectPool": {
     "Category": "Firearm",
     "Rarity": 1.0,
