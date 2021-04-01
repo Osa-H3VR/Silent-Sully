@@ -332,7 +332,11 @@
           "AutoPopulateGroup": false,
           "ForceSpawnAllSubPools": false,
           "IDOverride": [
-            "M219Grenade"
+            "Stielhandgranate",
+            "CyberGrenade",
+            "No69Grenade",
+            "M219Grenade",
+            "Mk2Grenade"
           ],
           "Eras": [],
           "Sets": [],
@@ -681,7 +685,7 @@
         "RequiredQuest": null,
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": 15,
-        "MaxAmmoCapacity": 35,
+        "MaxAmmoCapacity": 25,
         "NumMagsSpawned": 4,
         "NumClipsSpawned": 4,
         "NumRoundsSpawned": 20,
@@ -849,8 +853,7 @@
         "FeedOptions": [],
         "MountsAvailable": [],
         "RoundPowers": [
-          "Pistol",
-          "Intermediate"
+          "Pistol"
         ],
         "Features": [],
         "MeleeStyles": [],
@@ -2157,7 +2160,6 @@
                   "InfiniteAmmo",
                   "Invincibility",
                   "GhostMode",
-                  "MuscleMeat",
                   "Cyclops"
                 ],
                 "ThrownTypes": [],
@@ -2215,21 +2217,17 @@
                 "SpawnMagAndClip": false,
                 "BespokeAttachmentChance": 0.5,
                 "IsCompatibleMagazine": false,
-                "AutoPopulateGroup": true,
+                "AutoPopulateGroup": false,
                 "ForceSpawnAllSubPools": false,
-                "IDOverride": [],
-                "Eras": [
-                  "TurnOfTheCentury",
-                  "WW1",
-                  "WW2",
-                  "PostWar",
-                  "Modern",
-                  "Futuristic"
+                "IDOverride": [
+                  "Stielhandgranate",
+                  "CyberGrenade",
+                  "No69Grenade",
+                  "M219Grenade",
+                  "Mk2Grenade"
                 ],
-                "Sets": [
-                  "Real",
-                  "GroundedFictional"
-                ],
+                "Eras": [],
+                "Sets": [],
                 "Sizes": [],
                 "Actions": [],
                 "Modes": [],
@@ -2242,12 +2240,8 @@
                 "MeleeHandedness": [],
                 "MountTypes": [],
                 "PowerupTypes": [],
-                "ThrownTypes": [
-                  "Pinned"
-                ],
-                "ThrownDamageTypes": [
-                  "Explosive"
-                ],
+                "ThrownTypes": [],
+                "ThrownDamageTypes": [],
                 "SubGroups": null
               }
             ]
@@ -2420,7 +2414,6 @@
           "MinTargetsLimited": 6,
           "MaxTargetsLimited": 7,
           "EnemyType": [
-            "M_Swat_Guard_HoldSpecific",
             "M_Swat_Officer"
           ],
           "LeaderType": "M_Swat_Officer",
@@ -2590,9 +2583,9 @@
             "Hardened",
             "Swarm"
           ],
-          "MinTargets": 3,
+          "MinTargets": 4,
           "MaxTargets": 5,
-          "MinTargetsLimited": 3,
+          "MinTargetsLimited": 4,
           "MaxTargetsLimited": 4,
           "EnemyType": [
             "M_Swat_Officer",
