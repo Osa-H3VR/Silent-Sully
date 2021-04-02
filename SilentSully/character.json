@@ -1,6 +1,6 @@
 {
-  "DisplayName": "Specops Sully",
-  "Description": "You've successfully infiltrated the enemy complex.\nYour objective is to acquire enemy data and extract.\n\nNOTE:For the optimal expierience while using Spawnlock, only Spawnlock the starting pistols magazine.",
+  "DisplayName": "Silent Sully",
+  "Description": "You've successfully infiltrated the enemy complex.\nYour objective is to acquire enemy data and extract.\n\nNOTE:For the optimal experience while using Spawnlock, only Spawnlock the starting pistols magazine.",
   "CharacterGroup": 0,
   "TableID": "SilentSully_0_0_1",
   "StartingTokens": 5,

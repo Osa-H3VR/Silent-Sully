@@ -222,8 +222,10 @@
       "Pantswear_Lower": [],
       "Chance_Pantswear_Lower": 0.0,
       "ForceWearAllPantsLower": false,
-      "Backpacks": [],
-      "Chance_Backpacks": 0.0,
+      "Backpacks": [
+        "Sosigaccesory_ww2_backpack_grey"
+      ],
+      "Chance_Backpacks": 1.0,
       "ForceWearAllBackpacks": false
     }
   ],

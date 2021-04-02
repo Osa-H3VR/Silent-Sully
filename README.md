@@ -1,4 +1,4 @@
-# Specops Sully
+# Silent Sully
 
 ```
 This is the real tactical experience
@@ -29,7 +29,7 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 - Holds now also have turrets. No more you're just free to run in and slap "Start the Hold" to clear everything without even losing hp
 - Each supply now has a free cache, you can get loads of useful things, get creative! You have to now...
 - Attachments are now cheaper and you no longer waste hp from crates, there are no tokens inside. Two really great ideas, stolen from AllRounderRandy by Jessica
-- During holds, sosigs have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. 
+- During holds, sosigs with backpacks have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. 
  This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
 - Weaker categories now spawn with more ammo/bigger mags/more mags to incentivise earlier buys.
  

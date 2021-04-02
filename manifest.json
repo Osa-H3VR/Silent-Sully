@@ -1,11 +1,11 @@
 ﻿{
-  "guid": "h3vr.tnhtweaker.specopssully",
+  "guid": "h3vr.tnhtweaker.silentsully",
   "version": "0.1.0",
   "require": "0.3.0",
   "dependencies": {
     "h3vr.tnhtweaker.deli": "1.6.0"
   },
-  "name": "SpecopsSully",
+  "name": "SilentSully",
   "authors": [
     "Osa__PL",
     "Devyn Myers (Take & Hold Tweaker - required)"
@@ -13,8 +13,8 @@
   "assets": {
     "patcher": {},
     "setup": {
-      "SpecopsSully/sosig_M_Swat_Guard_HoldSpecific.json": "h3vr.tnhtweaker.deli:sosig",
-      "SpecopsSully/": "h3vr.tnhtweaker.deli:character"
+      "SilentSully/sosig_M_Swat_Guard_HoldSpecific.json": "h3vr.tnhtweaker.deli:sosig",
+      "SilentSully/": "h3vr.tnhtweaker.deli:character"
     },
     "runtime": {}
   }
