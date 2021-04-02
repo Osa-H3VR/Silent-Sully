@@ -684,45 +684,26 @@
         "Rarity": 7.0,
         "RequiredQuest": null,
         "ItemsToSpawn": 1,
-        "MinAmmoCapacity": 15,
-        "MaxAmmoCapacity": 25,
+        "MinAmmoCapacity": 20,
+        "MaxAmmoCapacity": 40,
         "NumMagsSpawned": 4,
         "NumClipsSpawned": 4,
         "NumRoundsSpawned": 20,
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
+        "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [],
-        "Eras": [
-          "WildWest",
-          "TurnOfTheCentury",
-          "WW1",
-          "WW2",
-          "PostWar",
-          "Modern",
-          "Futuristic"
-        ],
-        "Sets": [
-          "Real",
-          "GroundedFictional"
-        ],
-        "Sizes": [
-          "Pistol",
-          "Compact"
-        ],
-        "Actions": [
-          "Automatic"
-        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
         "Modes": [],
         "ExcludedModes": [],
         "FeedOptions": [],
         "MountsAvailable": [],
-        "RoundPowers": [
-          "Pistol",
-          "Intermediate"
-        ],
+        "RoundPowers": [],
         "Features": [],
         "MeleeStyles": [],
         "MeleeHandedness": [],
@@ -730,7 +711,121 @@
         "PowerupTypes": [],
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
-        "SubGroups": null
+        "SubGroups": [
+          {
+            "_Name": "semi high cap",
+            "Category": "Firearm",
+            "Rarity": 7.0,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": 20,
+            "MaxAmmoCapacity": 40,
+            "NumMagsSpawned": 4,
+            "NumClipsSpawned": 4,
+            "NumRoundsSpawned": 20,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": true,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [],
+            "Eras": [
+              "WildWest",
+              "TurnOfTheCentury",
+              "WW1",
+              "WW2",
+              "PostWar",
+              "Modern",
+              "Futuristic"
+            ],
+            "Sets": [
+              "Real",
+              "GroundedFictional"
+            ],
+            "Sizes": [
+              "Pistol",
+              "Compact"
+            ],
+            "Actions": [
+              "Automatic"
+            ],
+            "Modes": [],
+            "ExcludedModes": [
+              "Burst",
+              "FullAuto"
+            ],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [
+              "Pistol",
+              "Intermediate"
+            ],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": null
+          },
+          {
+            "_Name": "full-auto low cap",
+            "Category": "Firearm",
+            "Rarity": 7.0,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": 12,
+            "MaxAmmoCapacity": 25,
+            "NumMagsSpawned": 4,
+            "NumClipsSpawned": 4,
+            "NumRoundsSpawned": 20,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": true,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [],
+            "Eras": [
+              "WildWest",
+              "TurnOfTheCentury",
+              "WW1",
+              "WW2",
+              "PostWar",
+              "Modern",
+              "Futuristic"
+            ],
+            "Sets": [
+              "Real",
+              "GroundedFictional"
+            ],
+            "Sizes": [
+              "Pistol",
+              "Compact"
+            ],
+            "Actions": [
+              "Automatic"
+            ],
+            "Modes": [
+              "FullAuto"
+            ],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [
+              "Pistol",
+              "Intermediate"
+            ],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": null
+          }
+        ]
       },
       "BackupGroup": null
     },
