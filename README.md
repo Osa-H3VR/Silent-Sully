@@ -37,6 +37,7 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
  - Turrets can, and will spawn knocked down
  - I know about the third duplicate station that spawns while playing Spawnlock, this is the only way to ensure that later supply points always have an ammo purchaser.
  - On some maps, patrols like to congregate in small areas (Promeatus middle area is, I think, the worst offender for that)
+ - There is a bug in TnHTweaker (1.6.1), that will still give you useless shotgun ammo from Ammo Purchase station, should be fixed in next release (ty devyndamonster)
 
 ## TODO:
 - Add a picture showing sentries weakpoints
