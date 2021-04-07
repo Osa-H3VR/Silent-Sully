@@ -31,12 +31,14 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 - Attachments are now cheaper and you no longer waste hp from crates, there are no tokens inside. Two really great ideas, stolen from AllRounderRandy by Jessica
 - During holds, sosigs with backpacks have a chance to drop a starting pistol magazine, no longer you're f'ed/have to use sosiguns when you're out of ammo during holds. 
  This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
+- Added a new pool, which should fill the space between a pistol and an smg, just like the tube fed shotguns fill between break action and magazine fed.
 - Weaker categories now spawn with more ammo/bigger mags/more mags to incentivise earlier buys.
  
 ## Bugs:
  - Turrets can, and will spawn knocked down
  - I know about the third duplicate station that spawns while playing Spawnlock, this is the only way to ensure that later supply points always have an ammo purchaser.
  - On some maps, patrols like to congregate in small areas (Promeatus middle area is, I think, the worst offender for that)
+ - There is a bug in TnHTweaker (1.6.1), that will still give you useless shotgun ammo from Ammo Purchase station, should be fixed in next release (ty devyndamonster)
 
 ## TODO:
 - Add a picture showing sentries weakpoints
