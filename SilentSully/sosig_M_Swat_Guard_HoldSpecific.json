@@ -206,8 +206,10 @@
       "Eyewear": [],
       "Chance_Eyewear": 0.0,
       "ForceWearAllEye": false,
-      "Facewear": [],
-      "Chance_Facewear": 0.0,
+      "Facewear": [
+          "SosigAccessory_Common_Bandana_Plain_Black"
+      ],
+      "Chance_Facewear": 1.0,
       "ForceWearAllFace": false,
       "Torsowear": [
         "SosigAccessory_Tactical_LightArmour_Swat"
@@ -241,7 +243,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 1.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.7,
+  "DroppedLootChance": 0.85,
   "DroppedObjectPool": {
     "Category": "Firearm",
     "Rarity": 1.0,
@@ -292,10 +294,8 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "MagazineG17Standard",
           "MagazineG19_19rnd",
-          "MagazineM1911Tactical",
-          "MagazineM1911"
+          "MagazineM1911Tactical"
         ],
         "Eras": [],
         "Sets": [],
