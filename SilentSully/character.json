@@ -20,7 +20,8 @@
     "TurnOfTheCentury",
     "WW1",
     "WW2",
-    "PostWar"
+    "PostWar",
+    "Modern"
   ],
   "ValidAmmoSets": [
     "Real",
