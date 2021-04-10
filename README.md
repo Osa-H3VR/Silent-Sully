@@ -38,7 +38,7 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 Requires: TnhTweaker 1.6.0 and Deli 3.0
 1. Downlaod the release `.zip` file
 2. Unzip contents
-3. Place the `.deli` file into your `Deli/mods` folder
+3. Place the `.deli` file into your `Steam\steamapps\common\H3VR\Deli\mods` folder
 
 ## Bugs:
  - Turrets can, and will spawn knocked down
