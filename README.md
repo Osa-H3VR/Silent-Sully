@@ -34,6 +34,12 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
 - Added a new pool, which should fill the space between a pistol and an smg, just like the tube fed shotguns fill between break action and magazine fed.
 - Weaker categories now spawn with more ammo/bigger mags/more mags to incentivise earlier buys.
  
+## Installation
+Requires: TnhTweaker 1.6.0 and Deli 3.0
+1. Downlaod the release `.zip` file
+2. Unzip contents
+3. Place the `.deli` file into your `Steam\steamapps\common\H3VR\Deli\mods` folder
+
 ## Bugs:
  - Turrets can, and will spawn knocked down
  - I know about the third duplicate station that spawns while playing Spawnlock, this is the only way to ensure that later supply points always have an ammo purchaser.
