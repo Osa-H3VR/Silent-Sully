@@ -33,10 +33,11 @@ It always spawn both a rail and a handheld flashlight (mount it to your shoulder
  This decision also makes limited ammo runs easier, due to lack of "Infinite Ammo Stations".
 - Added a new pool, which should fill the space between a pistol and an smg, just like the tube fed shotguns fill between break action and magazine fed.
 - Weaker categories now spawn with more ammo/bigger mags/more mags to incentivise earlier buys.
+- New longer melee weapons category, not only enable you to save ammo, but now you can also safely knock over turrets with it.
  
 ## Installation
 Requires: TnhTweaker 1.6.0 and Deli 3.0
-1. Downlaod the release `.zip` file
+1. Download the release `.zip` file
 2. Unzip contents
 3. Place the `.deli` file into your `Steam\steamapps\common\H3VR\Deli\mods` folder
 
@@ -51,13 +52,12 @@ Requires: TnhTweaker 1.6.0 and Deli 3.0
     - Turrets were SO ANNOYING (to the point I was actually thinking about scrapping them) till I randomly found out they have a weakpoint, its that lower part of the thingy they have on their side, its colored depending on the turret type. The hitbox is really small. Im almost 100% sure its even smaller that in Receivers turrets.
 
 - Endless mode:     (aka. "Game doesn't like you" mode)
-    - you start with more tokens to spend, gives a chance for a good start
     - only single health crate in supply points
     - 5 rotations, each with different combination of turrets and enemies
     - Patrols have lower chance to drop health
     - EVEN CRAZIER encryption combinations
 
-- Longer melee weapons now, not only enable you to save ammo, but now you can also safely knock over turrets with it.
+
     - add longer/better melee category in tools
     
 - Thumbnail pls?
