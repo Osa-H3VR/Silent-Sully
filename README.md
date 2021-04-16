@@ -56,13 +56,7 @@ Requires: TnhTweaker 1.6.0 and Deli 3.0
     - 5 rotations, each with different combination of turrets and enemies
     - Patrols have lower chance to drop health
     - EVEN CRAZIER encryption combinations
-
-
-    - add longer/better melee category in tools
-    
-- Thumbnail pls?
-    - :3
-    
+  
 ##Future plans
 We get lots of new weapons, great maps, but lately, character scene has been quiet. I'm gonna try, and change that. Here are few characters ideas I have:
 - **Meatceiver Matt** (collecting single bullets from ground will be fun, surely...)
